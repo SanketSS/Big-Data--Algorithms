@@ -1,0 +1,21 @@
+There are two files. Node.java and SSSPDriver.java
+
+The SSSPDriver.java is the file with main class, mapper and reducer.
+
+The node.java is file for creating nodes.
+
+To run the program provide Input path where the input file is placed and output path.
+
+If you are running it directly from eclipes provide these paths as arguments in Run configurations.
+
+All intermediate Outputs will be generated in separate output folders at the provided OUTPUT path. 
+
+The name of the cutomized partitioner is SSSPPartitioner. The logic I implemented in partitioner is:
+if key is between 1 to 33  reducer 0
+if key is between 34 to 66 reducer 1
+if key is between 67 to 100 reducer2 
+Partitioner dived the input file in three parts.
+
+Number of reduce task is set to 3.
+
+

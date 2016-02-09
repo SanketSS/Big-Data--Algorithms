@@ -1,0 +1,14 @@
+The input is in the following format
+PageNo:Rank outlinks
+Ex 1:.5	2,3,4
+
+When input is read by mapper it creates the intermediate output and sends it to reducer. 
+There is only one mapper and one reducer for this project.
+
+I am calculating the value of epsilon and checking if its <0.05 or not.
+If its greater then run the project again. 
+
+the name of data file is data.txt
+For every iteration one output folder gets created as output1 , output2 and so on
+
+
